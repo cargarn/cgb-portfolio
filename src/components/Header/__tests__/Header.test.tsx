@@ -8,6 +8,6 @@ describe("Header", () => {
       <Header />
     );
 
-    //expect(await screen.findByText("asdasdasd")).toBeVisible();
+    expect(await screen.findByText("asdasdasd")).toBeVisible();
   });
 });

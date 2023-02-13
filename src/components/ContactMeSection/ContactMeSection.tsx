@@ -14,7 +14,7 @@ import {
 } from "@chakra-ui/react";
 import * as Yup from 'yup';
 import { FullScreenSection } from "../FullScreenSection";
-import useSubmit from "../../hooks/useSubmit";
+import useSubmit from "../../hooks/useSubmit/useSubmit";
 import { useAlertContext } from "../../context/alertContext";
 import { useTranslation } from "react-i18next";
 

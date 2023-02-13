@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import FullScreenSection from "../FullScreenSection/FullScreenSection";
 import { Box, Heading } from "@chakra-ui/react";
 import { Card } from "../Card";
 import { useTranslation } from "react-i18next";
-import useFetch from "../../hooks/useFetch";
+import useFetch from "../../hooks/useFetch/useFetch";
 
 const ProjectsSection = () => {
   const { t } = useTranslation();
