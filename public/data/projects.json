@@ -1,5 +1,11 @@
 [
     {
+        "title": "Cordeteam web",
+        "description":
+        "Web page for a personal trainer",
+        "imageSrc": "https://cordeteam.es/images/logo_negro.png"
+    },
+    {
         "title": "React Space",
         "description":
         "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
