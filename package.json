@@ -2,6 +2,7 @@
   "name": "cgb-portfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://cargarn.github.io/cgb-portfolio/",
   "dependencies": {
     "@chakra-ui/react": "^2.3.2",
     "@emotion/react": "^11.10.4",
