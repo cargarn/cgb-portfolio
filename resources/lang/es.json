@@ -41,25 +41,6 @@
       }
     ]
   },
-  "contact": {
-    "title": "Contacto",
-    "subtitle": "¿Tienes un proyecto en mente? ¡Me encantaría saber más sobre él!",
-    "form": {
-      "name": {
-        "label": "Nombre completo:",
-        "help": "Ingresa tu nombre completo"
-      },
-      "email": {
-        "label": "Correo electrónico:",
-        "help": "Ingresa un email válido"
-      },
-      "message": {
-        "label": "Mensaje:",
-        "help": "Cuéntame sobre tu proyecto o consulta"
-      },
-      "submit": "Enviar mensaje"
-    }
-  },
   "footer": {
     "copyright": "&copy; {year} Carlos Garnacho Benito",
     "github": "Perfil de GitHub de Carlos Garnacho Benito",

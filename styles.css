@@ -516,6 +516,14 @@ img {
   header {
     padding: 1.5rem;
   }
+  header div.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  header div.subtitle {
+    font-size: 1rem;
+  }
 
   nav ul {
     gap: 1rem;
@@ -581,10 +589,6 @@ img {
     font-size: 0.75rem;
     padding: 0.3rem 0.6rem;
   }
-
-  button {
-    width: 100%;
-  }
 }
 
 @media (max-width: 480px) {
@@ -594,11 +598,7 @@ img {
 
   nav ul {
     flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .form-group {
-    margin-bottom: 1rem;
+    gap: 0.1rem;
   }
 }
 
