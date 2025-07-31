@@ -1,0 +1,18 @@
+[
+  {
+    "dateStart": "2022",
+    "dateEnd": "Present",
+    "title": "Ingeniero de Software",
+    "company": "eDreams ODIGEO",
+    "description": "Trabajando en el desarrollo de la plataforma eDreams, centrándome en mejorar la experiencia del usuario y el rendimiento.",
+    "technologies": ["JavaScript", "React", "Node.js"]
+  },
+  {
+    "dateStart": "2016",
+    "dateEnd": "2022",
+    "title": "Ingeniero de Software",
+    "company": "KISTERS Ibérica",
+    "description": "Desarrollé y mantuve soluciones de software para la gestión de datos ambientales, centrándome en el rendimiento y la escalabilidad.",
+    "technologies": ["JavaScript", "Dojo"]
+  }
+]

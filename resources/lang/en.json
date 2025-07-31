@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Carlos GB - Software Engineer | Portfolio",
+    "description": "Carlos Garnacho, software engineer specialized in React, JavaScript and Node.js. Explore my projects and experience in modern web development.",
+    "keywords": "Carlos Garnacho, web developer, software engineer, React, JavaScript, Node.js, portfolio, programmer, web development"
+  },
+  "header": {
+    "jobTitle": "Software Engineer",
+    "navigation": {
+      "about": "About me",
+      "experience": "Experience",
+      "education": "Education",
+      "certificates": "Certificates",
+      "idioms": "Languages"
+    }
+  },
+  "about": {
+    "title": "About me",
+    "paragraph1": "I'm Carlos Garnacho, a software engineer passionate about technology and innovation. I specialize in creating modern and efficient web applications using the latest technologies like React, JavaScript, TypeScript and Node.js.",
+    "paragraph2": "With experience in both frontend and backend development, I focus on creating scalable solutions that provide an excellent user experience. My goal is to transform ideas into functional and attractive web applications."
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "jobs": [
+      {
+        "period": "2022 - Present",
+        "position": "Software Engineer",
+        "company": "eDreams ODIGEO",
+        "duration": "October 2022 - Present",
+        "description": "Working as a software engineer developing and maintaining travel technology solutions. Contributing to the development of scalable web applications using modern technologies like React, TypeScript, and Node.js. Collaborating with cross-functional teams to deliver high-quality software solutions for millions of users worldwide.",
+        "technologies": ["React", "TypeScript", "Node.js", "JavaScript"]
+      },
+      {
+        "period": "2016 - 2022",
+        "position": "Software Developer",
+        "company": "Kisters AG",
+        "duration": "2016 - 2022",
+        "description": "Developed and maintained software solutions for environmental and energy management systems. Worked on complex data visualization projects and contributed to the development of enterprise-level applications. Gained extensive experience in full-stack development and system integration.",
+        "technologies": ["JavaScript", "Java", "SQL", "Web Development"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Do you have a project in mind? I'd love to hear more about it!",
+    "form": {
+      "name": {
+        "label": "Full name:",
+        "help": "Enter your full name"
+      },
+      "email": {
+        "label": "Email address:",
+        "help": "Enter a valid email"
+      },
+      "message": {
+        "label": "Message:",
+        "help": "Tell me about your project or inquiry"
+      },
+      "submit": "Send message"
+    }
+  },
+  "footer": {
+    "copyright": "&copy; {year} Carlos Garnacho Benito",
+    "github": "Carlos Garnacho Benito's GitHub profile",
+    "linkedin": "Carlos Garnacho Benito's LinkedIn profile"
+  }
+}

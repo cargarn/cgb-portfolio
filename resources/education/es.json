@@ -1,0 +1,16 @@
+[
+  {
+    "degree": "Máster en Big Data",
+    "institution": "Universidad Europea Miguel de Cervantes",
+    "dateStart": "2021 ",
+    "dateEnd": "2022",
+    "description": "Máster centrado en el análisis de grandes volúmenes de datos, aprendizaje automático y tecnologías de Big Data. Incluye proyectos prácticos que proporcionan experiencia en el manejo de datos masivos y la implementación de soluciones basadas en datos."
+  },
+  {
+    "degree": "Grado en Ingeniería Informática de Sistemas, Software informático y aplicaciones multimedia",
+    "institution": "Universidad de Valladolid",
+    "dateStart": "2011 ",
+    "dateEnd": "2015",
+    "description": "Grado en Ingeniería Informática con especialización en desarrollo de software y aplicaciones multimedia. El programa abarca una amplia gama de temas, incluyendo programación, bases de datos, redes y diseño de interfaces de usuario. Incluye proyectos prácticos que proporcionan experiencia en el desarrollo de software y aplicaciones multimedia."
+  }
+]

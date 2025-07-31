@@ -1,0 +1,16 @@
+[
+  {
+    "degree": "Master's in Big Data",
+    "institution": "European University Miguel de Cervantes",
+    "dateStart": "2021",
+    "dateEnd": "2022",
+    "description": "Master's program focused on analyzing large volumes of data, machine learning, and Big Data technologies. It includes practical projects that provide experience in handling massive data and implementing data-driven solutions."
+  },
+  {
+    "degree": "Bachelor's in Computer Engineering, Software Systems and Multimedia Applications",
+    "institution": "University of Valladolid",
+    "dateStart": "2011",
+    "dateEnd": "2015",
+    "description": "Bachelor's degree in Computer Engineering with a specialization in software development and multimedia applications. The program covers a wide range of topics, including programming, databases, networks, and user interface design. It includes practical projects that provide experience in software development and multimedia applications."
+  }
+]

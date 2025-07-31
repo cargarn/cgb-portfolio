@@ -1,0 +1,87 @@
+{
+  "name": "Carlos Garnacho - Portfolio",
+  "short_name": "CG Portfolio",
+  "description": "Portfolio of Carlos Garnacho, software engineer specialized in React, JavaScript, TypeScript and Node.js. Modern web development solutions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "favicon-32x32.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192x192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icon-512x512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": [
+    "business",
+    "portfolio",
+    "developer",
+    "software",
+    "web",
+    "engineering"
+  ],
+  "shortcuts": [
+    {
+      "name": "About Me",
+      "short_name": "About",
+      "description": "Learn more about Carlos Garnacho",
+      "url": "/#about-me",
+      "icons": [
+        {
+          "src": "favicon-32x32.svg",
+          "sizes": "32x32",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Experience",
+      "short_name": "Experience",
+      "description": "View my professional experience",
+      "url": "/#experience",
+      "icons": [
+        {
+          "src": "favicon-32x32.svg",
+          "sizes": "32x32",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Contact me",
+      "url": "/#contact",
+      "icons": [
+        {
+          "src": "favicon-32x32.svg",
+          "sizes": "32x32",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}

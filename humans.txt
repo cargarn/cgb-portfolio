@@ -1,0 +1,13 @@
+/* TEAM */
+Developer: Carlos Garnacho Benito
+Contact: carlos.garnacho@example.com
+GitHub: https://github.com/cargarn
+LinkedIn: https://linkedin.com/in/carlos-garnacho
+Location: Spain
+
+/* SITE */
+Last update: 2025/07/30
+Standards: HTML5, CSS3, ECMAScript 2023
+Components: PWA, Responsive Design, Accessibility
+Software: VS Code, Git
+Languages: English, Spanish
