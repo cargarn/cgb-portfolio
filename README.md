@@ -4,11 +4,13 @@ Welcome to my developer portfolio.
 
 Created with VanillaJS + CSS + HTML5
 
-The goal is to include all the stack in this "tiny" and personal app where the users can interact and download my CV.
+I entirely developed this portfolio without frameworks or third-party libraries to gain a deeper grasp of native web technologies and improve my understanding of the fundamentals.
 
 ## Local server
 
 > npx http-server . -o -p 9999
+
+It will open a new browser tab on: http://127.0.0.1:9999/
 
 ## Demo
 
