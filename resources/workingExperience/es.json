@@ -5,14 +5,37 @@
     "title": "Ingeniero de Software",
     "company": "eDreams ODIGEO",
     "description": "Trabajando en el desarrollo de la plataforma eDreams, centrándome en mejorar la experiencia del usuario y el rendimiento.",
-    "technologies": ["JavaScript", "React", "Node.js"]
+    "technologies": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "TypeScript",
+      "GraphQL",
+      "Copilot"
+    ]
   },
   {
-    "dateStart": "2016",
+    "dateStart": "2022",
+    "dateEnd": "2022",
+    "title": "Ingeniero de Software",
+    "company": "Constella Intelligence",
+    "description": "Desarrollo y manternimiento de aplicaciones web para la gestión de datos de ciberseguridad.",
+    "technologies": ["JSP", "JavaScript", "Ciberseguridad"]
+  },
+  {
+    "dateStart": "2017",
     "dateEnd": "2022",
     "title": "Ingeniero de Software",
     "company": "KISTERS Ibérica",
-    "description": "Desarrollé y mantuve soluciones de software para la gestión de datos ambientales, centrándome en el rendimiento y la escalabilidad.",
+    "description": "Desarrollé y mantuve soluciones de software para la gestión de datos ambientales centrados en la hidrología, centrándome en el rendimiento y la escalabilidad.",
     "technologies": ["JavaScript", "Dojo"]
+  },
+  {
+    "dateStart": "2015",
+    "dateEnd": "2027",
+    "title": "Ingeniero de Software Junior",
+    "company": "Luce Innovative Technologies",
+    "description": "",
+    "technologies": ["JavaScript", "SQL", "JSP", "Java"]
   }
 ]

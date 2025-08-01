@@ -8,13 +8,13 @@
     <!-- SEO meta description -->
     <meta
       name="description"
-      content="Carlos G. B., software engineer specialized in React, JavaScript and Node.js. Explore my projects and experience in modern web development."
+      content="Carlos, Garnacho, Carlos G. B., software engineer specialized in React, JavaScript and Node.js. Explore my projects and experience in modern web development."
     />
 
     <!-- Keywords -->
     <meta
       name="keywords"
-      content="Carlos Garnacho, web developer, software engineer, React, JavaScript, Node.js, portfolio, programmer, web development"
+      content="Carlos, Garnacho, Benito, Carlos Garnacho, Carlos Garnacho Benito, dev, developer, software engineer, React, JavaScript, Node.js, portfolio, programmer, web development"
     />
 
     <!-- Social media meta tags (Open Graph) -->
@@ -81,9 +81,11 @@
     <!-- CSS preload for better performance -->
     <link rel="preload" href="css/styles.css" as="style" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
 
     <!-- App configuration -->
     <script src="js/config.js" defer></script>
+    <script src="js/navbar.js" defer></script>
     <script src="js/i18n.js" defer></script>
     <script src="js/workingExperience.js" defer></script>
     <script src="js/education.js" defer></script>
@@ -105,56 +107,88 @@
     </script>
   </head>
   <body>
-    <header>
-      <div class="title">Carlos G. B.</div>
-      <div class="subtitle" data-i18n="header.jobTitle">
-        <div class="skeleton skeleton-subtitle"></div>
-      </div>
+    <header class="navbar">
+      <div class="navbar-container">
+        <!-- Brand/Logo -->
+        <a href="#" class="navbar-brand title" aria-label="Carlos G. B. - Home">
+          Carlos G. B.
+        </a>
 
-      <nav role="navigation" aria-label="Main navigation">
-        <ul>
-          <li>
-            <a
-              href="#about-me"
-              aria-label="Go to about me section"
-              data-i18n="header.navigation.about"
-              ><div class="skeleton skeleton-text-sm"></div
-            ></a>
-          </li>
-          <li>
-            <a
-              href="#experience"
-              aria-label="Go to experience section"
-              data-i18n="header.navigation.experience"
-              ><div class="skeleton skeleton-text-sm"></div
-            ></a>
-          </li>
-          <li>
-            <a
-              href="#education"
-              aria-label="Go to education section"
-              data-i18n="header.navigation.education"
-              ><div class="skeleton skeleton-text-sm"></div
-            ></a>
-          </li>
-          <li>
-            <a
-              href="#certificates"
-              aria-label="Go to certificates section"
-              data-i18n="header.navigation.certificates"
-              ><div class="skeleton skeleton-text-sm"></div
-            ></a>
-          </li>
-          <li>
-            <a
-              href="#idioms"
-              aria-label="Go to idioms section"
-              data-i18n="header.navigation.idioms"
-              ><div class="skeleton skeleton-text-sm"></div
-            ></a>
-          </li>
-        </ul>
-      </nav>
+        <!-- Mobile menu toggle -->
+        <button
+          class="navbar-toggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          type="button"
+        >
+          <span class="menu-icon">☰</span>
+        </button>
+
+        <!-- Navigation menu -->
+        <nav class="navbar-nav" role="navigation" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a
+                href="#about-me"
+                class="nav-link"
+                aria-label="Go to about me section"
+                data-i18n="header.navigation.about"
+              >
+                <div class="skeleton skeleton-text-sm"></div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#experience"
+                class="nav-link"
+                aria-label="Go to experience section"
+                data-i18n="header.navigation.experience"
+              >
+                <div class="skeleton skeleton-text-sm"></div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#education"
+                class="nav-link"
+                aria-label="Go to education section"
+                data-i18n="header.navigation.education"
+              >
+                <div class="skeleton skeleton-text-sm"></div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#certificates"
+                class="nav-link"
+                aria-label="Go to certificates section"
+                data-i18n="header.navigation.certificates"
+              >
+                <div class="skeleton skeleton-text-sm"></div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#idioms"
+                class="nav-link"
+                aria-label="Go to idioms section"
+                data-i18n="header.navigation.idioms"
+              >
+                <div class="skeleton skeleton-text-sm"></div>
+              </a>
+            </li>
+          </ul>
+
+          <div class="navbar-language" id="language-selector">
+            <button class="lang-btn active" data-lang="en">
+              <span class="flag">🇺🇸</span> EN
+            </button>
+            <button class="lang-btn" data-lang="es">
+              <span class="flag">🇪🇸</span> ES
+            </button>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <main role="main">
@@ -227,15 +261,6 @@
     <footer role="contentinfo">
       <div data-i18n="footer.copyright" data-year="(new Date()).getFullYear()">
         <div class="skeleton skeleton-text-sm"></div>
-      </div>
-
-      <div class="language-selector">
-        <button class="lang-btn active" data-lang="en">
-          <span class="flag">🇺🇸</span> EN
-        </button>
-        <button class="lang-btn" data-lang="es">
-          <span class="flag">🇪🇸</span> ES
-        </button>
       </div>
 
       <div>

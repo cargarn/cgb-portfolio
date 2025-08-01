@@ -22,10 +22,11 @@ class AppConfig {
   }
 
   static setupLanguageSelector() {
-    const langSelector = document.querySelector(".language-selector");
+    const langSelector = document.getElementById("language-selector");
     if (!langSelector) return;
 
     this.updateActiveLanguageButton();
+    this.updateHtmlLang();
     langSelector.addEventListener("click", (e) => {
       const langBtn = e.target.closest(".lang-btn");
       if (langBtn) {

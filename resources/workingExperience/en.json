@@ -1,18 +1,41 @@
 [
   {
-    "dateStart": "2022",
-    "dateEnd": "Present",
-    "title": "Software Engineer",
-    "company": "eDreams ODIGEO",
-    "description": "Working on the development of the eDreams platform, focusing on enhancing user experience and performance.",
-    "technologies": ["JavaScript", "React", "Node.js"]
-  },
-  {
     "dateStart": "2016",
     "dateEnd": "2022",
     "title": "Software Engineer",
+    "company": "eDreams ODIGEO",
+    "description": "Working on the eDreams platform development, focusing on improving user experience and performance.",
+    "technologies": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "TypeScript",
+      "GraphQL",
+      "Copilot"
+    ]
+  },
+  {
+    "dateStart": "2022",
+    "dateEnd": "2022",
+    "title": "Software Engineer",
+    "company": "Constella Intelligence",
+    "description": "Developing and maintaining web applications for cybersecurity data management.",
+    "technologies": ["JSP", "JavaScript", "Cybersecurity"]
+  },
+  {
+    "dateStart": "2017",
+    "dateEnd": "2022",
+    "title": "Software Engineer",
     "company": "KISTERS Ibérica",
-    "description": "Developed and maintained software solutions for environmental data management, focusing on performance and scalability.",
+    "description": "Developed and maintained software solutions for environmental data management focused on hydrology, emphasizing performance and scalability.",
     "technologies": ["JavaScript", "Dojo"]
+  },
+  {
+    "dateStart": "2015",
+    "dateEnd": "",
+    "title": "Junior Software Engineer",
+    "company": "Luce Innovative Technologies",
+    "description": "",
+    "technologies": ["JavaScript", "SQL", "JSP", "Java"]
   }
 ]
