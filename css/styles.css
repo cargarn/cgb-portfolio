@@ -26,7 +26,8 @@ html {
 
 body {
   font-family: monospace, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: var(--background);
+  background: var(--background); /* Fallback */
+  animation: color 9s infinite linear;
   color: var(--text-color);
   line-height: 1.6;
   min-height: 100vh;
@@ -104,6 +105,7 @@ section {
   box-shadow: var(--shadow);
   padding: 2rem;
   scroll-snap-align: start;
+  opacity: 0.95;
 }
 
 section#presentation {
@@ -208,6 +210,27 @@ section div {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes color {
+  0% {
+    background: #33cccc;
+  }
+  20% {
+    background: #33cc36;
+  }
+  40% {
+    background: #b8cc33;
+  }
+  60% {
+    background: #fcca00;
+  }
+  80% {
+    background: #33cc36;
+  }
+  100% {
+    background: #33cccc;
   }
 }
 
@@ -439,17 +462,18 @@ img {
 
   /* Mobile timeline styles */
   .timeline {
-    padding: 1rem;
+    padding: 0rem;
+    margin: 1rem auto 0;
   }
 
   .timeline::before {
-    left: 1.6rem;
+    left: 0.6rem;
     width: 2px;
   }
 
   .timeline-item {
     padding-left: 2rem !important;
-    padding-right: 1rem !important;
+    padding-right: 0rem !important;
     text-align: left !important;
     margin-bottom: 3rem;
   }
