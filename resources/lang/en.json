@@ -20,25 +20,7 @@
     "paragraph2": "With experience in both frontend and backend development, I focus on creating scalable solutions that provide an excellent user experience. My goal is to transform ideas into functional and attractive web applications."
   },
   "experience": {
-    "title": "Professional Experience",
-    "jobs": [
-      {
-        "period": "2022 - Present",
-        "position": "Software Engineer",
-        "company": "eDreams ODIGEO",
-        "duration": "October 2022 - Present",
-        "description": "Working as a software engineer developing and maintaining travel technology solutions. Contributing to the development of scalable web applications using modern technologies like React, TypeScript, and Node.js. Collaborating with cross-functional teams to deliver high-quality software solutions for millions of users worldwide.",
-        "technologies": ["React", "TypeScript", "Node.js", "JavaScript"]
-      },
-      {
-        "period": "2016 - 2022",
-        "position": "Software Developer",
-        "company": "Kisters AG",
-        "duration": "2016 - 2022",
-        "description": "Developed and maintained software solutions for environmental and energy management systems. Worked on complex data visualization projects and contributed to the development of enterprise-level applications. Gained extensive experience in full-stack development and system integration.",
-        "technologies": ["JavaScript", "Java", "SQL", "Web Development"]
-      }
-    ]
+    "title": "Professional Experience"
   },
   "languages": {
     "es": "🇪🇸 Español - Native",

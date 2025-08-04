@@ -21,25 +21,7 @@
     "paragraph3": "También, ingeniero de software apasionado por la tecnología y la innovación. Me especializo en crear aplicaciones web modernas y eficientes utilizando las últimas tecnologías como React, JavaScript, TypeScript y Node.js. Con experiencia en desarrollo tanto frontend como backend, me enfoco en crear soluciones escalables que brinden una excelente experiencia de usuario. Mi objetivo es transformar ideas en aplicaciones web funcionales y atractivas."
   },
   "experience": {
-    "title": "Experiencia Profesional",
-    "jobs": [
-      {
-        "period": "2022 - Presente",
-        "position": "Ingeniero de Software",
-        "company": "eDreams ODIGEO",
-        "duration": "Octubre 2022 - Presente",
-        "description": "Trabajando como ingeniero de software desarrollando y manteniendo soluciones tecnológicas de viajes. Contribuyendo al desarrollo de aplicaciones web escalables utilizando tecnologías modernas como React, TypeScript y Node.js. Colaborando con equipos multifuncionales para entregar soluciones de software de alta calidad para millones de usuarios en todo el mundo.",
-        "technologies": ["React", "TypeScript", "Node.js", "JavaScript"]
-      },
-      {
-        "period": "2016 - 2022",
-        "position": "Desarrollador de Software",
-        "company": "Kisters AG",
-        "duration": "2016 - 2022",
-        "description": "Desarrollé y mantuve soluciones de software para sistemas de gestión ambiental y energética. Trabajé en proyectos complejos de visualización de datos y contribuí al desarrollo de aplicaciones de nivel empresarial. Adquirí amplia experiencia en desarrollo full-stack e integración de sistemas.",
-        "technologies": ["JavaScript", "Java", "SQL", "Desarrollo Web"]
-      }
-    ]
+    "title": "Experiencia Profesional"
   },
   "languages": {
     "es": "🇪🇸 Español - Nativo",
