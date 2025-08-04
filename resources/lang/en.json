@@ -40,6 +40,10 @@
       }
     ]
   },
+  "languages": {
+    "es": "🇪🇸 Español - Native",
+    "en": "🇬🇧 Inglés - Professional proficiency"
+  },
   "footer": {
     "copyright": "&copy; {year} Carlos Garnacho Benito",
     "github": "Carlos Garnacho Benito's GitHub profile",

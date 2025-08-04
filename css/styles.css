@@ -20,6 +20,8 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scroll-padding-top: 100px;
 }
 
 body {
@@ -101,6 +103,32 @@ section {
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
   padding: 2rem;
+  scroll-snap-align: start;
+}
+
+section#presentation {
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section#presentation .presentation-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section#presentation .scroll-down:before,
+section#presentation .scroll-down:after {
+  content: "⬇";
+  animation: opacity;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  padding: 0 1rem;
 }
 
 section h2 {
@@ -175,6 +203,14 @@ section div {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes opacity {
+  0%,
+  50% {
+    opacity: 0;
+    color: #1d1f20;
   }
 }
 
@@ -385,7 +421,7 @@ img {
   background: rgba(255, 0, 0, 0.5);
   color: var(--white);
   padding: 0.25rem 0.5rem;
-  font-size: 1.75rem;
+  font-size: 1rem;
   border-radius: 4px;
 }
 

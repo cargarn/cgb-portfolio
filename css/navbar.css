@@ -85,8 +85,10 @@ header .title {
 }
 
 .menu-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
-  width: 100;
   font-size: 30px;
   transition: all 0.3s ease;
   transform-origin: center;

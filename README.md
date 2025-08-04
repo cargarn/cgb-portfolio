@@ -18,7 +18,6 @@ https://cargarn.github.io/cgb-portfolio/
 
 ## TO-DO list
 
-- [ ] Create scroll snap for the portfolio sections
 - [ ] Create backend endpoint to download CV in pdf format
 - [ ] Create backend endpoints to retrieve the json files from resources folder
 - [ ] Add more content to the portfolio
