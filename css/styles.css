@@ -30,7 +30,7 @@ body {
   animation: color 9s infinite linear;
   color: var(--text-color);
   line-height: 1.6;
-  min-height: 100vh;
+  min-height: 100dvh;
   font-size: 16px;
 }
 
@@ -93,7 +93,7 @@ body {
 
 /* Main content */
 main {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100dvh - 200px);
 }
 
 /* Section */
@@ -109,7 +109,7 @@ section {
 }
 
 section#presentation {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100dvh - 100px);
   display: flex;
   flex-direction: column;
   align-items: center;
